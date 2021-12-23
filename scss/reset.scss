@@ -1,0 +1,23 @@
+    //Loai bo margin padding mac dinh
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box; //để khi đặt width và height thì nó sẽ tự động điều chỉnh padding margin border ko lọt ra ngoài width và height mình đã đặt
+    }
+
+    ul,
+    ol {
+        list-style: none; //de ul va ol ko co dau cham hay 1234
+    }
+
+    a {
+        text-decoration: none; // line, linethrough: dau gach ngang qua, none: xoa dau gach ngang
+    }
+
+    input,
+    button,
+    textarea {
+        border: none;
+        outline: none;
+        background: none;
+    }
